@@ -48,7 +48,12 @@ type var_name[][2] = {
                       {element_1, element_2},
                       {element_3, element_4} 
                     }
+                    
+```
 
+You can leave the row brackets empty, but you cannot leave the column brackets empty. 
+
+```
 rows = sizeof(mat)/sizeof(mat[0])
 cols = sizeof(mat[0])/sizeof(int)
 

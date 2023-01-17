@@ -3,6 +3,7 @@ Array
 - static
 - have to declare num of variables
 
+```
 type var_name[num_of_elements];
 type var_name[] = {element_1, element_2, ...};
 
@@ -14,10 +15,13 @@ for(type i: var_name)
 {
   cout << i;
 }
+```
 
 Vector
 
 - dynamic
+
+```
 
 vector<type> var_name(num_of_elements);
 vector<type> var_name() = {element_1, element_2, ...};
@@ -30,3 +34,4 @@ var_name.pop_back()
 
 var_name.insert(var_name.being()+index_number, value)
 var_name.erase(var_name.being()+index_number)
+```

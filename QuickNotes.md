@@ -43,6 +43,12 @@ var_name.erase(var_name.being()+index_number)
 type var_name[rows][cols];
 int mat[2][4];
 
+
+type var_name[][] = { 
+                      {element_1, element_2},
+                      {element_3, element_4} 
+                    }
+
 rows = sizeof(mat)/sizeof(mat[0])
 cols = sizeof(mat[0])/sizeof(int)
 

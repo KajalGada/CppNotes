@@ -44,7 +44,7 @@ type var_name[rows][cols];
 int mat[2][4];
 
 
-type var_name[][] = { 
+type var_name[][2] = { 
                       {element_1, element_2},
                       {element_3, element_4} 
                     }

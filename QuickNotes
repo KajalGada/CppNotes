@@ -17,7 +17,7 @@ for(type i: var_name)
 
 Vector
 
-- dynamics
+- dynamic
 
 vector<type> var_name(num_of_elements);
 vector<type> var_name() = {element_1, element_2, ...};

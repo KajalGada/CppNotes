@@ -59,6 +59,12 @@ cols = sizeof(mat[0])/sizeof(int)
 
 ```
 
+Accessing elements is [r][c] and NOT [r, c].
+
+```
+var_name[r][c] = value;
+```
+
 
 
 

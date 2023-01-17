@@ -1,4 +1,4 @@
-Array
+## Array
 
 - static
 - have to declare num of variables
@@ -17,7 +17,7 @@ for(type i: var_name)
 }
 ```
 
-Vector
+## Vector
 
 - dynamic
 
@@ -35,3 +35,36 @@ var_name.pop_back()
 var_name.insert(var_name.being()+index_number, value)
 var_name.erase(var_name.being()+index_number)
 ```
+
+
+## 2D array
+
+```
+type var_name[rows][cols];
+int mat[2][4];
+
+rows = sizeof(mat)/sizeof(mat[0])
+cols = sizeof(mat[0])/sizeof(int)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
